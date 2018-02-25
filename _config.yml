@@ -1,0 +1,39 @@
+# Site settings
+title: Adam Dueck
+description: > # this means to ignore newlines until "baseurl:"
+  Development Projects
+baseurl: "" # the subpath of your site, e.g. /newpath-for-emping
+url: "https://adueck.github.com" # the base hostname & protocol for your site
+github_username:  adueck
+GoogleAnalytics: UA-xxxxxx-x
+
+sass:
+    style: compressed
+
+# Build settings
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+
+defaults:
+    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:title'}}
+
+include:
+  - _pages
+
+exclude:
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+paginate: 12
+paginate_path: '/blog/:num'
