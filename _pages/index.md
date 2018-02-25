@@ -8,7 +8,7 @@ permalink: /
 
 ## [Journee Diary](https://adueck.github.io/journee)
 
-A minimalistic diary application that creates a folder full of `YYYY-MM-DD.txt` text files. Clean UI build with Electron.
+A minimalistic diary application that creates a folder full of `YYYY-MM-DD.txt` text files. Distraction-free UI built with Electron.
 
 ## [Good Clean Read](https://adueck.github.io/good-clean-read)
 
